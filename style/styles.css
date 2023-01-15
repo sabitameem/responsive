@@ -18,7 +18,7 @@ body{
         margin-top: 50px;
         width: 1020px;
     height: 658px;
-    margin-left: 90px;
+   margin-left: 90px;
     
     }
 
@@ -354,6 +354,7 @@ margin-bottom: 216px;
     margin-top: 0px;
     text-align: center;
     
+    
   }
   nav h4{
     margin-top: 0px;
@@ -361,6 +362,11 @@ margin-bottom: 216px;
   }
   nav ul{
     padding-left: 0px;
+    width:330px;
+    
+  }
+  nav li{
+    margin-right: 10px;
   }
   .next-header h2{
     font-size: 30px;
@@ -376,7 +382,7 @@ margin-bottom: 216px;
   .header img{
     margin-left: 00px;
     width: 372px;
-    height: 400px;
+    height: 318px;
   }
   .header{
     margin-bottom: 40px;
