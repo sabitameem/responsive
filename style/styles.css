@@ -253,7 +253,16 @@ padding-left: 36px;
 padding-top: 57px;
 padding-bottom: 60px;
 padding-right: 37px;
+transition: 0.8s;
+position: relative;
+overflow: hidden;
+
 }
+.boxes :hover{
+    color: aqua;
+}
+
+
 .box h2{
     font-weight: 600px;
 font-size: 47px;
@@ -296,8 +305,21 @@ margin-bottom:5px;
     justify-content: space-between;
     margin-bottom: 130px;
     color: #424242 black;
+    
 }
 
+
+.contact h3{
+    font-size: 40px;
+    color: #FF900E;
+    margin-left: 30px;
+
+}
+.contact p{
+    font-size: 20px;
+    color: #131313;
+    margin-left: 30px;
+}
 
 /*--final--*/
 .footer{
