@@ -85,7 +85,9 @@ button{
         display: grid;
         grid-template-columns: repeat(2,1fr);
         column-gap: 24px;
-        row-gap: 24px;}
+        row-gap: 24px;
+        
+    }
 
         .text{
             width: 537px;
@@ -304,7 +306,7 @@ margin-bottom:5px;
     text-align: center;
     justify-content: space-between;
     margin-bottom: 130px;
-    color: #424242 black;
+    filter: grayscale(100%);
     
 }
 
@@ -339,11 +341,162 @@ margin-bottom: 216px;
 
 @media screen and (max-width: 990px) {
     /* CSS rules for desktop here */
- 
-
-
-
-
 
   }
+
+
+  @media  screen and (max-width:576px){
+    /*css rules for mobile here */
+  
+  nav{
+    display: inline;
+    font-size: 1em;
+    margin-top: 0px;
+    text-align: center;
+    
+  }
+  nav h4{
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+  nav ul{
+    padding-left: 0px;
+  }
+  .next-header h2{
+    font-size: 30px;
+  }
+  .next-header p{
+    font-size: 12px;
+  }
+  .next-header button{
+    width: 140px;
+    height: 44px;
+    font-size: 13px;
+  }
+  .header img{
+    margin-left: 00px;
+    width: 372px;
+    height: 400px;
+  }
+  .header{
+    margin-bottom: 40px;
+  }
+ /* .main{
+    display: inline;
+  }
+  .text{
+    width: 342px;
+    height: 342px;*/
+.main{
+    display:inline-flex;
+}
+.pic{
+    grid-template-columns: repeat(1,1fr);
+    padding-left:10px;
+    margin-bottom: 50px;
+
+}
+.text{
+    width: 330px;
+    height: 330px;
+    margin-top: 1500px;
+    margin-right: 2000px;
+    margin-left: -330px;
+    
+}
+.main{
+    padding-bottom: 70px;
+}
+.sec-text{
+    margin-top: 0px;
+}
+/*.features{
+    width: 330px;
+}
+   */
+   .title{
+    margin-top: 0px;
+    width: 330px;}
+    .title h2{
+        font-size: 30px;
+        margin-top: 0px;
+    }
+
+
+    .card{
+        padding-left: 5px;
+        width: 330px;
+        
+    }
+
+    .images img{
+        margin-right: 2400px;
+        margin-left: -600px;
+        margin-top: 1300px;
+        width: 338px;
+        height: 332px;
+        padding-left: 20px;
+    }
+.images .special{
+    margin-top: 1600px;
+    margin-left: -479px;
+    width: 144px;
+    height: 69px;
+    font-size: 24px;
+}
+.btn-text{
+    font-size:17px ;
+}
+
+    .facts{
+        margin-top: 650px;
+    }
+    .facts h3{
+        margin-bottom: 15px;
+    }
+
+    .boxes{
+        flex-direction: column;
+        row-gap: 13px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .para{
+        margin-left: 0px;
+        width: 330px;
+    }
+    .para h3{
+        margin-left: 0px;
+        font-size: 28px;
+        margin-bottom: 19px;
+    }
+    .para p{
+font: 0.5em;
+    }
+
+    .logos{
+        margin-top: 5px;
+        flex-direction: column;
+        row-gap: 25px;
+        width: 330px;
+        height: 320px;
+    }
+    .contact h3{
+        margin-top: 193px;
+        margin-left: 3px;
+        margin-bottom: 10px;
+    }
+    .contact p{
+        margin-left: 3px;
+        margin-top: 7px;
+    }
+    .footer{
+        margin-left: 20px;
+        width: 256px;
+        height: 80px;
+        font-size: 17px;
+        padding-top: 12px;
+    } 
+  }
+  
   
